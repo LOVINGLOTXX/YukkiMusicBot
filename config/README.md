@@ -17,7 +17,7 @@
 | 6 | SONG_DOWNLOAD_DURATION | True | Time (Mins) | Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins. | 180
 | 7 | LOG_GROUP_ID | True | Integer | You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 | -1001733534088
 | 8 | MUSIC_BOT_NAME | True | String | A name for your Music bot. | Yukki Music
-| 9 | OWNER_ID | True | Integer | Your Owner ID for managing your bot. | 83022323
+| 9 | OWNER_ID | True | Integer | Your Owner ID for managing your bot. | 5065752827
 
 
 # Non-Mandatory Vars
@@ -31,8 +31,8 @@
 | 2 | SERVER_PLAYLIST_LIMIT | True | Integer | Maximum Limit Allowed for users to save playlists on bot's server | 30
 | 3 | PLAYLIST_FETCH_LIMIT | True | Integer |  MaximuM limit for fetching playlist's track from youtube, spotify, apple links. | 25
 | 4 | CLEANMODE_MINS | True | Time(Mins) | Cleanmode time after which bot will delete its old messages from chats | 5
-| 5 | SUPPORT_CHANNEL | False | URL | If you've any channel for your music bot , fill it with your channel link | https://t.me/TheYukki
-| 6 | SUPPORT_GROUP | False | URL | If you've any group support for your music bot , fill it with your channel link | https://t.me/YukkiSupport
+| 5 | SUPPORT_CHANNEL | True | URL | If you've any channel for your music bot , fill it with your channel link | https://t.me/shakidasupport
+| 6 | SUPPORT_GROUP | True | URL | If you've any group support for your music bot , fill it with your channel link | https://t.me/shakidagbanlog
 
 
 # Bot Vars
@@ -83,7 +83,7 @@
 | 1 | UPSTREAM_REPO | False | URL | Your Upstream Repo URL or Forked Repo. | 
 | 2 | UPSTREAM_BRANCH | False | BRANCH | Default Branch of your Upstream Repo URL or Forked Repo.  | 
 | 3 | GIT_TOKEN | False | Token | Your GIT TOKEN if your upstream repo is private| 
-| 4 | GITHUB_REPO | True | URL |  Your Github Repo url, that will be shown on /start command |
+| 4 | GITHUB_REPO | False | URL |  Your Github Repo url, that will be shown on /start command |
 
 
 
